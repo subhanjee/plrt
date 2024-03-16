@@ -1,0 +1,30 @@
+.text-nav {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: center;
+  color: white !important;
+}
+.text-nav:hover {
+  color: #20e9ff !important;
+}
+.wallet-bnt {
+  background-color: transparent;
+  border: solid 1px #2a6578 !important;
+  color: #20e9ff !important;
+  width: 8rem;
+  padding: 0.4rem !important;
+  border-radius: 0.3rem !important;
+  text-align: center !important;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.serach-size {
+  background-color: #21212f !important;
+  color: white !important;
+  border-radius: 5rem;
+  border: solid 1px #21212f;
+  width: 334px;
+}
+.ant-input::placeholder {
+  color: white !important; /* Set placeholder color to white */
+}

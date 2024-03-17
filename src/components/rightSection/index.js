@@ -18,6 +18,7 @@ import frame1 from "../../images/Frame 180.png";
 import "./index.css";
 import { Card, Col, Input, Row } from "antd";
 import { SearchOutlined } from "@ant-design/icons";
+import { Link } from "react-router-dom";
 const data = [
   {
     id: 1,
@@ -123,8 +124,6 @@ function RightSection() {
             <img src={sorting} alt="abc" />
             <div>Sort By</div>
           </div>
-
-         
           <div className="frme-div1">
             <img src={frame1} alt="abc" />
           </div>
@@ -138,6 +137,7 @@ function RightSection() {
         {data.map((item, index) => (
           <Col key={index} xxl={7} xl={7} lg={8}>
             <div>
+              <Link to="/detail" style={{textDecoration:"none"}}>
               <Card hoverable cover={item.img} className="card-div">
                 <div className="card-text-div">
                   <h6 className="title-text">{item.title}</h6>
@@ -150,6 +150,7 @@ function RightSection() {
                   </div>
                 </div>
               </Card>
+              </Link>
             </div>
           </Col>
         ))}

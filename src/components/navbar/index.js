@@ -6,12 +6,15 @@ import { UserOutlined ,SearchOutlined} from "@ant-design/icons";
 import logo from "../../images/PLRT-logotype 1.png";
 import "./index.css";
 import { Input } from "antd";
+import { Link } from "react-router-dom";
 function Header() {
   return (
     <Navbar expand="lg" className="">
       <Container>
         <Navbar.Brand href="#">
+          <Link to="/">
           <img src={logo} alt="abc" />{" "}
+          </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">

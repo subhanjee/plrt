@@ -2,8 +2,7 @@ import { Col, Row } from "antd";
 import React from "react";
 import RightSection from "../rightSection";
 import LeftSection from "../leftSection";
-import { Container } from "react-bootstrap";
-import "./index.css"
+ import "./index.css"
 function Collected() {
   return (
     <div className="wholediv-coll">

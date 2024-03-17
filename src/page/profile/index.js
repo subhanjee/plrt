@@ -1,13 +1,16 @@
-import React from 'react'
-import Header from '../../components/navbar'
-import "./index.css"
+import React from "react";
+import Header from "../../components/navbar";
+import "./index.css";
+import HeroSection from "../../components/heroSection";
+import LeftSection from "../../components/leftSection";
 function Profile() {
   return (
-    <div  className='bg-whole'>
-        <Header/>
-      <h1 className='text-center text-1xl text-white'>Profile</h1>
+    <div className="bg-whole">
+      <Header />
+      <HeroSection /> 
+      <LeftSection/>
     </div>
-  )
+  );
 }
 
-export default Profile
+export default Profile;

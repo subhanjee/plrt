@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { UserOutlined ,SearchOutlined} from "@ant-design/icons";
+import { UserOutlined, SearchOutlined } from "@ant-design/icons";
 import logo from "../../images/PLRT-logotype 1.png";
 import "./index.css";
 import { Input } from "antd";
@@ -13,7 +13,7 @@ function Header() {
       <Container>
         <Navbar.Brand href="#">
           <Link to="/">
-          <img src={logo} alt="abc" />{" "}
+            <img src={logo} alt="abc" />{" "}
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -27,18 +27,28 @@ function Header() {
               <Input
                 size="large"
                 placeholder="Search items, collections..."
-                prefix={<SearchOutlined style={{ color: "#20E9FF" ,marginRight: ".5rem"}}/>}
- 
+                prefix={
+                  <SearchOutlined
+                    style={{ color: "#20E9FF", marginRight: ".5rem" }}
+                  />
+                }
                 className="serach-size"
               />
             </Form>
           </Nav>
-          <Nav.Link className="text-nav">Home</Nav.Link>
+          <Nav.Link className="text-nav">
+            {" "}
+            <Link to="/" className="text-nav">
+              Home
+            </Link>
+          </Nav.Link>
           <Nav.Link href="#action2" className="text-nav">
             Explore
           </Nav.Link>
           <Nav.Link href="#action2" className="text-nav">
-            Profile
+            <Link to="/profile" className="text-nav">
+              Profile
+            </Link>
           </Nav.Link>
           <Nav.Link href="#action2" className="text-nav">
             Create

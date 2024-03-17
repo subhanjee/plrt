@@ -3,6 +3,7 @@
   margin-right: 1rem;
   text-align: center;
   color: white !important;
+  text-decoration: none !important;
 }
 .text-nav:hover {
   color: #20e9ff !important;

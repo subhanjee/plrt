@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import plr from "../../images/Rectangle 353.png";
 import icon from "../../images/icon.png";
 import "./index.css";
-import { Button, message, Steps, theme } from "antd";
+import {  message, Steps, } from "antd";
 const steps = [
   {
     title: "Summary",

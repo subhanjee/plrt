@@ -15,7 +15,7 @@ function Collected() {
               <LeftSection />
             </div>
           </Col>
-          <Col xxl={16} xl={16} lg={16} xs={24}>
+          <Col xxl={16} xl={16} lg={18} xs={24}>
           <div className="wholediv-coll">
               <RightSection />
             </div>

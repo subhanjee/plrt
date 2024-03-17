@@ -110,29 +110,30 @@ function RightSection() {
       <div className="input-div">
         <Input
           size="large"
-          placeholder="Search items,"
+          placeholder="Search items"
           prefix={
             <SearchOutlined
-              style={{ color: "#20E9FF", marginRight: ".5rem" }}
+              style={{ color: "white", marginRight: ".5rem" }}
             />
           }
           className="serach-size-right"
         />
-   <div className="input-div1">
-        <div className="sort-div">
-          <img src={sorting} alt="abc" />
-          <div>Sort By</div>
-        </div>
-     
-        <div className="frme-div">
-        <img src={frame} alt="abc" />
-        </div>
-        <div className="frme-div1">
-        <img src={frame1} alt="abc" />
-        </div>
+        <div className="input-div1">
+          <div className="sort-div">
+            <img src={sorting} alt="abc" />
+            <div>Sort By</div>
+          </div>
+
+         
+          <div className="frme-div1">
+            <img src={frame1} alt="abc" />
+          </div>
+          <div className="frme-div">
+            <img src={frame} alt="abc" />
+          </div>
         </div>
       </div>
-      <h3 className="text-white">36 Items</h3>
+      <h3 className="text-white ite">36 Items</h3>
       <Row justify="center" className="gap-5">
         {data.map((item, index) => (
           <Col key={index} xxl={7} xl={7} lg={8}>

@@ -103,6 +103,7 @@ const data = [
 function RightSection() {
   return (
     <div>
+        <h3 className="text-white">36 Items</h3>
       <Row justify="center" className="gap-5">
         {data.map((item, index) => (
           <Col key={index} xxl={7} xl={7} lg={8}  >

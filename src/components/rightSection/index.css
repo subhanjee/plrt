@@ -3,10 +3,10 @@
   border: solid 1px #2a6578 !important;
   padding: 1rem;
   color: white;
-  width: 20rem;
+  width: 18rem;
   height: 22rem;
- margin-top: 1rem;
- margin-bottom: 1rem;
+ margin-top: .5rem;
+ margin-bottom: .5rem;
 }
  
 .title-text {
@@ -44,4 +44,37 @@ flex-direction: column;
     border-radius: 5rem;
     color: white;
     width: 872px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+@media(max-width: 1024px){
+    .view-btn{
+        background-color: #21212F;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5rem;
+        color: white;
+        width: 700px;
+    }
+    .card-div {
+        background-color: #11111e !important;
+        border: solid 1px #2a6578 !important;
+        padding: 1rem;
+        color: white;
+        width: 17rem;
+        height: 22rem;
+       margin-top: 1rem;
+       margin-bottom: 1rem;
+      }
+}
+@media(max-width: 500px){
+    .view-btn{
+        background-color: #21212F;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5rem;
+        color: white;
+        width: 300px;
+    }
+   
 }

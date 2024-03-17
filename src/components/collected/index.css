@@ -1,0 +1,19 @@
+.wholediv-coll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.wholediv-coll-widh{
+    width: 80rem;
+}
+@media(max-width: 1024px){
+    .wholediv-coll-widh{
+        width: 55rem;
+    }
+}
+@media(max-width: 500px){
+    .wholediv-coll-widh{
+        width: 100%;
+    }
+}

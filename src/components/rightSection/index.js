@@ -103,9 +103,9 @@ const data = [
 function RightSection() {
   return (
     <div>
-      <Row justify="center" className="gap-1">
+      <Row justify="center" className="gap-5">
         {data.map((item, index) => (
-          <Col key={index} xxl={6} xl={6}>
+          <Col key={index} xxl={7} xl={7} lg={8}  >
             <div>
               <Card hoverable cover={item.img} className="card-div">
                 <div className="card-text-div">

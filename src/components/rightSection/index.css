@@ -4,77 +4,81 @@
   padding: 1rem;
   color: white;
   width: 18rem;
-  height: 22rem;
- margin-top: .5rem;
- margin-bottom: .5rem;
+  height: 20rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
- 
+
 .title-text {
   color: #78788d;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: start;
 }
 .subitle-text {
   color: white;
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
-.card-text-div{
-display: flex;
-justify-content: flex-start;
-flex-direction: column;
+.card-text-div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
-.flex-div{
-    display: flex;
-    justify-content: space-between;
-  
+.flex-div {
+  display: flex;
+  justify-content: space-between;
 }
-.icon-i{
-    margin-top: -.7rem;
-    margin-right: .3rem;
+.flex-div-d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -0.4rem;
 }
-.view-div-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.icon-i {
+  /* margin-top: -.7rem; */
+  margin-right: 0.3rem;
 }
-.view-btn{
-    background-color: #21212F;
+.view-div-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.view-btn {
+  background-color: #21212f;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5rem;
+  color: white;
+  width: 872px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 1024px) {
+  .view-btn {
+    background-color: #21212f;
     text-align: center;
     padding: 1rem;
     border-radius: 5rem;
     color: white;
-    width: 872px;
+    width: 700px;
+  }
+  .card-div {
+    background-color: #11111e !important;
+    border: solid 1px #2a6578 !important;
+    padding: 1rem;
+    color: white;
+    width: 17rem;
+    height: 20rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
 }
-@media(max-width: 1024px){
-    .view-btn{
-        background-color: #21212F;
-        text-align: center;
-        padding: 1rem;
-        border-radius: 5rem;
-        color: white;
-        width: 700px;
-    }
-    .card-div {
-        background-color: #11111e !important;
-        border: solid 1px #2a6578 !important;
-        padding: 1rem;
-        color: white;
-        width: 17rem;
-        height: 22rem;
-       margin-top: 1rem;
-       margin-bottom: 1rem;
-      }
-}
-@media(max-width: 500px){
-    .view-btn{
-        background-color: #21212F;
-        text-align: center;
-        padding: 1rem;
-        border-radius: 5rem;
-        color: white;
-        width: 300px;
-    }
-   
+@media (max-width: 500px) {
+  .view-btn {
+    background-color: #21212f;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    color: white;
+    width: 300px;
+  }
 }

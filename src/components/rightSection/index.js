@@ -95,7 +95,7 @@ const data = [
   {
     id: 12,
     title: "PrimoPLR",
-    subTitle: "PrimoPLR",
+    subTitle: "Edit Plus #82983",
     price: "11.98",
     img: <img src={plr11} alt="" className="img-size" />,
   },
@@ -112,9 +112,9 @@ function RightSection() {
                   <h6 className="title-text">{item.title}</h6>
                   <div className="flex-div">
                     <h4 className="subitle-text">{item.subTitle}</h4>
-                    <div className="flex-div">
+                    <div className="flex-div-d">
                       <img src={icon} alt="" className="icon-i" />
-                      <p>{item.price}</p>
+                      <div>{item.price}</div>
                     </div>
                   </div>
                 </div>

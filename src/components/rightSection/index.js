@@ -11,9 +11,13 @@ import plr8 from "../../images/Rectangle 353 (8).png";
 import plr9 from "../../images/Rectangle 353 (9).png";
 import plr10 from "../../images/Rectangle 353 (10).png";
 import plr11 from "../../images/Rectangle 353 (11).png";
+import sorting from "../../images/sorting.png";
 import icon from "../../images/icon.png";
+import frame from "../../images/Frame 180 (1).png";
+import frame1 from "../../images/Frame 180.png";
 import "./index.css";
-import { Card, Col, Row } from "antd";
+import { Card, Col, Input, Row } from "antd";
+import { SearchOutlined } from "@ant-design/icons";
 const data = [
   {
     id: 1,
@@ -103,10 +107,35 @@ const data = [
 function RightSection() {
   return (
     <div>
-        <h3 className="text-white">36 Items</h3>
+      <div className="input-div">
+        <Input
+          size="large"
+          placeholder="Search items,"
+          prefix={
+            <SearchOutlined
+              style={{ color: "#20E9FF", marginRight: ".5rem" }}
+            />
+          }
+          className="serach-size-right"
+        />
+   <div className="input-div1">
+        <div className="sort-div">
+          <img src={sorting} alt="abc" />
+          <div>Sort By</div>
+        </div>
+     
+        <div className="frme-div">
+        <img src={frame} alt="abc" />
+        </div>
+        <div className="frme-div1">
+        <img src={frame1} alt="abc" />
+        </div>
+        </div>
+      </div>
+      <h3 className="text-white">36 Items</h3>
       <Row justify="center" className="gap-5">
         {data.map((item, index) => (
-          <Col key={index} xxl={7} xl={7} lg={8}  >
+          <Col key={index} xxl={7} xl={7} lg={8}>
             <div>
               <Card hoverable cover={item.img} className="card-div">
                 <div className="card-text-div">
@@ -125,7 +154,7 @@ function RightSection() {
         ))}
       </Row>
       <div className="view-div-center">
-      <button className="view-btn">View more (27)</button>
+        <button className="view-btn">View more (27)</button>
       </div>
     </div>
   );

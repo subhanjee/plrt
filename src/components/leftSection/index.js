@@ -118,7 +118,7 @@ function LeftSection() {
       <hr className="line-hr" />
       <div className="div-cate">
         <h6 className="text-white">Pricing</h6>
-        <DownOutlined style={{ color: "#78788D" }} />
+        <DownOutlined style={{ color: "#78788D" }} /> 
       </div>
       <div className="div-cate">
         <Input placeholder="Min"/>

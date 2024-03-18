@@ -1,0 +1,94 @@
+.whole-div-seller{
+    padding: 80px 0px;
+}
+.center-col-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+.div-seller{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: #1A1A27;
+    border-radius: 1rem;
+    width: 20rem;
+    padding: .8rem;
+
+}
+.flex-tick{
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+    gap: .5rem;
+}
+.flex-tick1{
+    display: flex;
+    color: white;
+    font-size: .8rem;
+    align-items: center;
+    gap: .5rem;
+}
+.flex-price-seller{
+    display: flex;
+    gap: 1rem;
+}
+.div-view{
+    background-color: #21212F;
+    width: 6rem;
+    border-radius: 5rem;
+    padding: .3rem;
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+}
+.div-arrow{
+    background-color: #21212F;
+    width: 2rem;
+    height: 2rem;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.center-div-sell{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.top-div-sell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 62rem;
+}
+.more-div-sell{
+    display: flex;
+    gap: 1rem;
+}
+@media(max-width: 1024px){
+    .top-div-sell{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 40rem;
+    }
+}
+@media(max-width: 500px){
+    .top-div-sell{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100% !important;
+    }
+}

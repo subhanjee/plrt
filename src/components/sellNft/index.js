@@ -2,11 +2,12 @@ import React from "react";
 import "./index.css";
 import { Col, Row } from "antd";
 import card from "../../images/card.png"
+import seller from "../../images/seller card.png"
 function SellNft() {
   return (
     <div className="bg-div-sell">
       <Row justify="center">
-        <Col xxl={5} xl={9}>
+        <Col xxl={5} xl={8} lg={10} md={10}>
           <div className="sell-col">
             <div>
               <h1 className="sell-text">Sell your<br/> PLR NFTS now</h1>
@@ -18,10 +19,11 @@ function SellNft() {
             </div>
           </div>
         </Col>
-        <Col xxl={5} xl={9}>
+        <Col xxl={7} xl={12} lg={10} md={10}>
           <div className="sell-col">
             <div>
-                <img src={card} alt="abc"/>
+                <img src={card} alt="abc" className="seller-size"/>
+                <img src={seller} alt="abc" className="pos-card"/>
             </div>
           </div>
         </Col>

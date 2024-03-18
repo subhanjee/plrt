@@ -1,0 +1,211 @@
+.card-div-card {
+    background-color: #11111e !important;
+    border: solid 1px #2a6578 !important;
+    padding: 1rem;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+ 
+  .frme-div {
+    background-color: #3a3a50;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .frme-div1 {
+    background-color: #21212f;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sort-div-card{
+    background-color: #21212f;
+    width: 7rem;
+    color: white !important;
+    border-radius: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.4rem;
+    gap: 0.5rem;
+  }
+  .title-text-card{
+    color: white;
+    font-size: .95rem;
+    text-align: start;
+  }
+  .subitle-text-card {
+    color: white;
+    font-size: 0.8rem;
+    margin-left: .5rem;
+  }
+  .card-text-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .flex-div-card {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .flex-div-d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -0.4rem;
+  }
+  .icon-i-card {
+    /* margin-top: -.7rem; */
+    margin-right: 0.3rem;
+    width: 1rem;
+  }
+  .view-div-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .view-btn-card {
+    background-color: #21212f;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    color: white;
+    width: 72rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .input-div-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 72rem;
+  }
+  .input-div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card-center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media(max-width: 1440px){
+    .view-btn-card {
+        background-color: #21212f;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5rem;
+        color: white;
+        width: 70rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .input-div-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 70rem;
+      }
+  }
+  @media (max-width: 1024px) {
+    .view-btn-card {
+        background-color: #21212f;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5rem;
+        color: white;
+        width: 52rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .input-div-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 52rem;
+      }
+ 
+    
+   
+    .card-div-card {
+      background-color: #11111e !important;
+      border: solid 1px #2a6578 !important;
+      padding: 1rem;
+      color: white;
+      width: 17rem;
+       margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+  @media(max-width: 768px){
+   
+    .view-btn-card {
+        background-color: #21212f;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5rem;
+        color: white;
+        width: 35rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .input-div-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 35rem;
+      }
+  }
+  @media (max-width: 500px) {
+    .view-btn-card {
+        background-color: #21212f;
+        text-align: center;
+        padding: 1rem;
+        border-radius: 5rem;
+        color: white;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+      .input-div-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+      }
+  
+    .sort-div-card {
+      background-color: #21212f;
+      width:8rem;
+      color: white !important;
+      border-radius: 5rem;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      padding: 0.4rem;
+      gap:1rem;
+    }
+   
+    
+  }
+  

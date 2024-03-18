@@ -113,7 +113,7 @@ const data = [
 ];
 function CardSection() {
   return (
-    <div>
+    <div style={{marginTop:"2rem"}}>
       <Container>
         <div className="card-center-div">
         <div className="input-div-card">

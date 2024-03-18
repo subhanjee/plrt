@@ -124,10 +124,10 @@ function RightSection() {
             <img src={sorting} alt="abc" />
             <div>Sort By</div>
           </div>
-          <div className="frme-div1">
+          <div className="frme-div">
             <img src={frame1} alt="abc" />
           </div>
-          <div className="frme-div">
+          <div className="frme-div1">
             <img src={frame} alt="abc" />
           </div>
         </div>

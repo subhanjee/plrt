@@ -17,22 +17,22 @@ const responsive = {
 
 const items = [
   <div className="item center--car" data-value="1">
-    <img src={nft} alt="abc" />
+    <img src={nft} alt="abc" className="img-car"/>
   </div>,
   <div className="item center--car" data-value="2">
-    <img src={nft1} alt="abc" />
+    <img src={nft1} alt="abc" className="img-car"/>
   </div>,
   <div className="item center--car" data-value="3">
-    <img src={nft2} alt="abc" />
+    <img src={nft2} alt="abc" className="img-car"/>
   </div>,
   <div className="item center--car" data-value="4">
-    <img src={nft3} alt="abc" />
+    <img src={nft3} alt="abc" className="img-car"/>
   </div>,
   <div className="item center--car" data-value="5">
-    <img src={nft1} alt="abc" />
+    <img src={nft1} alt="abc" className="img-car"/>
   </div>,
   <div className="item center--car" data-value="6">
-    <img src={nft} alt="abc" />
+    <img src={nft} alt="abc" className="img-car"/>
   </div>,
 ];
 function Drops() {

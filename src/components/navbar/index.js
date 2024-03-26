@@ -43,7 +43,9 @@ function Header() {
             </Link>
           </Nav.Link>
           <Nav.Link href="#action2" className="text-nav">
-            Explore
+            <Link to="/explore" className="text-nav">
+              Explore
+            </Link>
           </Nav.Link>
           <Nav.Link href="#action2" className="text-nav">
             <Link to="/profile" className="text-nav">

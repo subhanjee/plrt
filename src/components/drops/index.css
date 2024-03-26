@@ -1,0 +1,25 @@
+.div-whole-drop{
+    padding: 50px 0px;
+}
+.view-more{
+    border: solid 1px #6D31ED;
+    color: #6D31ED;
+    width: 6rem;
+    padding: .4rem;
+    border-radius: .3rem;
+    font-size: .8rem;
+    text-align: center;
+}
+.div-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.center--car{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

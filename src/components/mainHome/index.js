@@ -1,7 +1,7 @@
 import { Col, Row } from "antd";
 import React from "react";
 import "./index.css";
-import homepage from "../../images/Container 3.png"
+import homepage from "../../images/Container 3.png";
 function MainHome() {
   return (
     <div className="home-div-whole">
@@ -26,13 +26,13 @@ function MainHome() {
           </div>
         </Col>
         <Col xxl={7} xl={9} lg={10} md={10} xs={24}>
-        <div className="center-col-home1">
+          <div className="center-col-home1">
             <div>
-                <img src={homepage} alt="abc" className="img-home"/>
+              <img src={homepage} alt="abc" className="img-home" />
             </div>
           </div>
         </Col>
-      </Row>{" "}
+      </Row>
     </div>
   );
 }

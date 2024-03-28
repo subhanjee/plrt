@@ -135,7 +135,13 @@ function Trending() {
                         <div>{item.subimg}</div>
                         <div className="subitle-text-card-trend ">
                           <div>{item.subTitle}</div>
-                          <div style={{display:"flex",alignItems:"center",gap:".2rem" }}>
+                          <div
+                            style={{
+                              display: "flex",
+                              alignItems: "center",
+                              gap: ".2rem",
+                            }}
+                          >
                             by <a style={{ color: "#20E9FF" }}>{item.by}</a>
                             {item.ico}
                           </div>

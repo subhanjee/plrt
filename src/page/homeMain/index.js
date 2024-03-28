@@ -5,6 +5,7 @@ import MainHome from "../../components/mainHome";
 import Drops from "../../components/drops";
 import TopCollection from "../../components/topCollection";
 import Trending from "../../components/trending";
+import GetStart from "../../components/getStart";
  
 function HomeMain() {
   return (
@@ -14,6 +15,7 @@ function HomeMain() {
       <Drops />
       <TopCollection/>
       <Trending/>
+      <GetStart/>
       <Footer />
     </div>
   );

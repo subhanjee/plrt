@@ -3,6 +3,8 @@ import Header from "../../components/navbar";
 import Footer from "../../components/footer";
 import MainHome from "../../components/mainHome";
 import Drops from "../../components/drops";
+import TopCollection from "../../components/topCollection";
+import Trending from "../../components/trending";
  
 function HomeMain() {
   return (
@@ -10,6 +12,8 @@ function HomeMain() {
       <Header />
       <MainHome />
       <Drops />
+      <TopCollection/>
+      <Trending/>
       <Footer />
     </div>
   );

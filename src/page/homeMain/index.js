@@ -6,6 +6,8 @@ import Drops from "../../components/drops";
 import TopCollection from "../../components/topCollection";
 import Trending from "../../components/trending";
 import GetStart from "../../components/getStart";
+import Browse from "../../components/browse";
+import Partners from "../../components/partners";
  
 function HomeMain() {
   return (
@@ -16,6 +18,8 @@ function HomeMain() {
       <TopCollection/>
       <Trending/>
       <GetStart/>
+      <Browse/>
+      <Partners/>
       <Footer />
     </div>
   );

@@ -1,0 +1,55 @@
+.whole-sell {
+  padding: 20px 0px;
+}
+.col-selling-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.sell-div-method {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.box-one-sell {
+  background-color: #f5f1fe;
+  border: solid 1px #6d31ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: .3rem;
+  text-align: center;
+}
+.box-two-sell {
+    background-color: #DEE1E6;
+    border: solid 1px #9095A1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 15rem;
+    padding: 1rem;
+    border-radius: .3rem;
+    text-align: center;
+  }
+  .text-fixed{
+    color: #6d31ed;
+    font-size: .8rem;
+  }
+  .text-sell{
+    color:#171A1F;
+    font-size: .8rem;
+    font-weight: 500;
+  }
+  .auc-text{
+    color: #9095A1;
+    font-size: .8rem;
+    font-weight: 500;
+  }

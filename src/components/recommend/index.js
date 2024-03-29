@@ -6,8 +6,7 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import plr from "../../images/Image 69.png";
 import plr1 from "../../images/Image 72.png";
 import plr2 from "../../images/Image 75.png";
-import { Card, Dropdown, Space } from "antd";
-import { DownOutlined } from "@ant-design/icons";
+import { Card } from "antd";
 import smallLogo1 from "../../images/Image 70.png";
 import smallLogo2 from "../../images/Image 73.png";
 import smallLogo3 from "../../images/Image 76.png";
@@ -15,7 +14,7 @@ import icon from "../../images/like.png";
 import tick from "../../images/Image 74.png";
 const responsive = {
   0: { items: 1 },
-  568: { items: 2 }, 
+  568: { items: 2 },
   1024: { items: 3 },
   1440: { items: 3 },
   2560: { items: 3 },
@@ -81,42 +80,13 @@ const data = [
     ico: <img src={tick} alt="abc" />,
   },
 ];
-const items = [
-  {
-    label: <p>this Week </p>,
-    key: "1",
-  },
-  {
-    label: <p>this Month </p>,
-    key: "2",
-  },
-  {
-    label: <p>this Year </p>,
-    key: "3",
-  },
-];
-function Trending() {
+
+function Recommended() {
   return (
     <div className="div-whole-drop">
       <Container>
         <div className="div-more">
-          <div className="text-white div-week">
-            Trending
-            <Dropdown
-              menu={{
-                items,
-              }}
-            >
-              <p
-                onClick={(e) => e.preventDefault()}
-                style={{ color: "#20E9FF" }}
-              >
-                <Space>
-                  PLR <DownOutlined style={{ fontSize: ".8rem" }} />
-                </Space>
-              </p>
-            </Dropdown>
-          </div>
+          <div className="text-white div-week">Recommended for you</div>
           <div className="view-more">View More</div>
         </div>
         <div className="center--car">
@@ -167,4 +137,4 @@ function Trending() {
   );
 }
 
-export default Trending;
+export default Recommended;

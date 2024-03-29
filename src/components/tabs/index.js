@@ -12,7 +12,7 @@ const items = [
     label: "About",
     children: <Collected />,
   },
-  {
+  { 
     key: "2",
     label: "Collected",
     children: <Collected />,

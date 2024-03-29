@@ -8,6 +8,8 @@ import Trending from "../../components/trending";
 import GetStart from "../../components/getStart";
 import Browse from "../../components/browse";
 import Partners from "../../components/partners";
+import wallet from "../../images/Credit card.png";
+
  
 function HomeMain() {
   return (
@@ -17,7 +19,7 @@ function HomeMain() {
       <Drops />
       <TopCollection/>
       <Trending/>
-      <GetStart/>
+      <GetStart data="Get started!" btn="Connect wallet" img={<img src={wallet} alt="abc"/>}/>
       <Browse/>
       <Partners/>
       <Footer />

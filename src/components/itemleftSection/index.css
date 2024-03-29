@@ -1,0 +1,79 @@
+.check-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .check {
+    color: white !important;
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .check:hover {
+    color: #20e9ff !important;
+  }
+  .fil-div {
+    display: flex;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #20e9ff !important;
+    border-color: #20e9ff !important;
+    color: white !important;
+  }
+  
+  .ant-checkbox-checked .ant-checkbox-inner::after {
+    border-color: black !important; /* Change this to the color you desire */
+  }
+  .black-checkbox .ant-checkbox-inner {
+    background-color: #3a3a50 !important;
+    border-color: #3a3a50;
+  }
+  
+  .blue-checkbox .ant-checkbox-inner {
+    background-color: #20e9ff !important;
+  }
+  .line-hr {
+    border: solid 1px #21212f;
+  }
+  .text-fil {
+    color: white;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .div-cate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 264px;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  }
+  .clear-btn {
+    text-align: center;
+    color: white;
+    background-color: #21212f;
+    width: 8rem;
+    border-radius: 5rem;
+    padding: 0.3rem;
+  }
+  .apply-btn {
+    text-align: center;
+    color: #11111e;
+    background-color: #20e9ff;
+    width: 8rem;
+    border-radius: 5rem;
+    padding: 0.3rem;
+  }
+  .div-slide {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .ant-input-outlined{
+      background-color:#21212F !important;
+      border: none !important;
+      padding: .5rem;
+  } 
+  .ant-input-outlined::placeholder{
+      color: #78788D !important;
+  }

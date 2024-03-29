@@ -1,0 +1,23 @@
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #20e9ff !important;
+ 
+  }
+  .ant-tabs-tab-btn {
+    color: white !important;
+  }
+  /* If you want to change the color of the active tab */
+  .ant-tabs-nav .ant-tabs-tab-active {
+    color: #20e9ff; /* Change to your desired color */
+  }
+  .ant-tabs.ant-tabs-nav-wrap {
+    border-bottom: none !important;
+  }
+  .center-div {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .ant-tabs-ink-bar {
+    background: #20e9ff !important;
+  }
+ 

@@ -5,6 +5,7 @@ import LandingPage from "./page/landingPage";
 import Profile from "./page/profile";
 import { Routes, Route } from "react-router-dom";
 import ProfileTwo from "./page/profileTwo";
+import AssetsScreen from "./page/assetsScreen";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Route path="/detail" element={<Detail />}></Route>
       <Route path="/profile" element={<Profile />}></Route>
       <Route path="/profileTwo" element={<ProfileTwo />}></Route>
+      <Route path="/assetsScreen" element={<AssetsScreen />}></Route>
     </Routes>
     // </div>
   );

@@ -2,6 +2,7 @@ import { Col, Row } from "antd";
 import React from "react";
 import prolfe from "../../images/Image 182.png";
 import frame from "../../images/Image 74.png";
+import frame1 from "../../images/Image 185.png";
 import "./index.css";
 import {
   HeartOutlined,
@@ -16,21 +17,39 @@ function HeroProfile() {
       <div className="center-hero"></div>
       <div className="hero-whole">
         <Row justify="center">
-          <Col xxl={8} xl={12} lg={10} md={12}>
+          <Col xxl={8} xl={12} lg={10} md={11}>
             <div className="col-center">
               <div className="flex-div-hero">
                 <img src={prolfe} alt="" />
                 <div className="flex-hero">
-                  <h3 className="text-white">Unidentified Monster</h3>
+                  <h2 className="text-white">Unidentified Monster</h2>
                   <div className="text-white dis-flex">
                     by <a style={{ color: "#20E9FF" }}>Brenda Gardner</a>{" "}
                     <img src={frame} alt="abc" />
                   </div>
                 </div>
               </div>
+              <div className="hero-items-div">
+                <div>
+                  <p className="item-text">Items</p>
+                  <p className="item-num">237</p>
+                </div>
+                <div>
+                  <p  className="item-text">Owners</p>
+                  <p className="item-num">212</p>
+                </div>
+                <div>
+                  <p  className="item-text">Floor price</p>
+                  <div className="item-num"><img src={frame1} alt="abc"/>1.99</div>
+                </div>
+                <div>
+                  <p  className="item-text">Total volume</p>
+                  <div className="item-num"><img src={frame1} alt="abc"/> 2.9k</div>
+                </div>
+              </div>
             </div>
           </Col>
-          <Col xxl={8} xl={12} lg={10} md={12}>
+          <Col xxl={8} xl={12} lg={10} md={11}>
             <div className="col-center">
               <div className="div-col-hero">
                 <div className="heroico-div">

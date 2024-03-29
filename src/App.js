@@ -6,6 +6,7 @@ import Profile from "./page/profile";
 import { Routes, Route } from "react-router-dom";
 import ProfileTwo from "./page/profileTwo";
 import AssetsScreen from "./page/assetsScreen";
+import CreateItems from "./page/createItems";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/profile" element={<Profile />}></Route>
       <Route path="/profileTwo" element={<ProfileTwo />}></Route>
       <Route path="/assetsScreen" element={<AssetsScreen />}></Route>
+      <Route path="/createItems" element={<CreateItems />}></Route>
     </Routes>
     // </div>
   );

@@ -1,0 +1,91 @@
+.div-whole-create {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0px;
+}
+.input-size {
+  background-color: #bdc1ca !important;
+  color: #6f7787 !important;
+  border-radius: 0.2rem !important;
+}
+.input-size::placeholder {
+  color: #6f7787 !important;
+}
+.line {
+  border: 1px solid #dee1e6;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.dus-text {
+  font-size: 0.8rem;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #20e9ff !important;
+  border-color: #20e9ff !important;
+  color: white !important;
+}
+.btn-upload {
+  background-color: transparent;
+  border: #171a1f solid 1px;
+  width: 8rem;
+  text-align: center;
+  padding: 0.4rem;
+  color: #171a1f;
+  border-radius: 0.1rem;
+}
+.btn-upload:hover {
+  background-color: #171a1f;
+  color: #6f7787;
+}
+.div-upload {
+  border-style: dashed;
+  border-color: #171a1f;
+  border-width: 1px;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #bdc1ca !important;
+  flex-direction: column;
+}
+.flex-swit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cover-div{
+    border-style: dashed;
+    border-color: #BDC1CA;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: .5rem;
+    border-radius: .4rem;
+}
+.btn-change{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+.bt-change{
+    background-color: #F5F1FE;
+    width: 5rem;
+    padding: .2rem;
+    border-radius: .2rem;
+    text-align: center;
+    color: #6D31ED;
+}
+.bt-remove{
+    background-color: #e3c2c3;
+    width: 5rem;
+    padding: .2rem;
+    border-radius: .2rem;
+    text-align: center;
+    color: #DE3B40;
+}

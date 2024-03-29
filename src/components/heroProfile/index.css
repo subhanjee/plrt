@@ -1,0 +1,55 @@
+.hero-whole{
+    padding: 80px 0px;
+}
+.center-hero{
+    background-image: url("../../images/Container\ 79.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+
+}
+.flex-div-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.dis-flex{
+    display: flex;
+    align-items:center;
+    gap: .5rem;
+}
+.col-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flex-hero{
+    display: flex;
+    flex-direction: column;
+ }
+.icon-size{
+    margin-left: 1rem;
+    margin-top: -2.1rem;
+}
+.icon-size-mes{
+    margin-right: 1rem;
+}
+.heroico-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-radius: 5rem;
+    gap: 1rem;
+}
+.div-col-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}

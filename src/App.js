@@ -4,6 +4,7 @@ import HomeMain from "./page/homeMain";
 import LandingPage from "./page/landingPage";
 import Profile from "./page/profile";
 import { Routes, Route } from "react-router-dom";
+import ProfileTwo from "./page/profileTwo";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path="/explore" element={<LandingPage />}></Route>
       <Route path="/detail" element={<Detail />}></Route>
       <Route path="/profile" element={<Profile />}></Route>
+      <Route path="/profileTwo" element={<ProfileTwo />}></Route>
     </Routes>
     // </div>
   );

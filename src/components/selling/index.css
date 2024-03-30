@@ -2,18 +2,18 @@
   padding: 20px 0px;
 }
 .col-selling-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
 .sell-div-method {
   display: flex;
-  justify-content: center;
-  align-items: center;
+ align-items: center;
   gap: 2rem;
+  margin-top: 1rem;
 }
 .box-one-sell {
   background-color: #f5f1fe;
@@ -24,32 +24,125 @@
   flex-direction: column;
   width: 15rem;
   padding: 1rem;
-  border-radius: .3rem;
+  border-radius: 0.3rem;
   text-align: center;
 }
 .box-two-sell {
-    background-color: #DEE1E6;
-    border: solid 1px #9095A1;
+  background-color: #dee1e6;
+  border: solid 1px #9095a1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+.text-fixed {
+  color: #6d31ed;
+  font-size: 0.8rem;
+}
+.text-sell {
+  color: #171a1f;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.auc-text {
+  color: #9095a1;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.flex-sell-check {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.input-size {
+    background-color: #bdc1ca !important;
+    color: #6f7787 !important;
+    border-radius: 0.2rem !important;
+  }
+  .input-size::placeholder {
+    color: #6f7787 !important;
+   }
+.p-tag{
+    font-size: .8rem;
+}
+.side-div{
+    background-color: #FAFAFB;
+    padding: 2rem;
+}
+.div-sum{
+    display: flex;
+    gap: 1rem;
+}
+.div-sum1{
+    display: flex;
+    gap: .2rem;
+}
+.div-fixed{
+    width: 4rem;
+    color: #20e9ff;
+    border: #20e9ff solid 1px;
+    text-align: center;
+    border-radius: 5rem;
+    font-size: .8rem;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+.num-text-n{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.tick-div-sell{
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: .8rem;
+}
+.div-june{
+    width:5rem;
+    color: #20e9ff;
+    border: #20e9ff solid 1px;
+    text-align: center;
+    border-radius: 5rem;
+    font-size: .7rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    padding: .2rem;
+}
+.btn-center-sell{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    width: 15rem;
-    padding: 1rem;
-    border-radius: .3rem;
+}
+.btn-post{
+    width: 18rem;
+    padding: .3rem;
+    background-color: #20e9ff;
+    border-radius: .2rem;
     text-align: center;
-  }
-  .text-fixed{
-    color: #6d31ed;
-    font-size: .8rem;
-  }
-  .text-sell{
-    color:#171A1F;
-    font-size: .8rem;
+    color: black ;
     font-weight: 500;
-  }
-  .auc-text{
-    color: #9095A1;
+    margin-top: 2rem;
+}
+.creat-nft-sell{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: .8rem;
-    font-weight: 500;
-  }
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+@media(max-width: 500px){
+    .sell-div-method {
+        display: flex;
+       align-items: center;
+        gap: 2rem;
+        margin-top: 1rem;
+        flex-direction: column;
+      }
+}

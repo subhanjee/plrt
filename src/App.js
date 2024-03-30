@@ -7,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import ProfileTwo from "./page/profileTwo";
 import AssetsScreen from "./page/assetsScreen";
 import CreateItems from "./page/createItems";
+import StatScreen from "./page/statScreen";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Route path="/profileTwo" element={<ProfileTwo />}></Route>
       <Route path="/assetsScreen" element={<AssetsScreen />}></Route>
       <Route path="/createItems" element={<CreateItems />}></Route>
+      <Route path="/statScreen" element={<StatScreen />}></Route>
     </Routes>
     // </div>
   );

@@ -1,7 +1,7 @@
 import { Col, Row } from "antd";
 import React from "react";
 import "./index.css";
-import homepage from "../../images/Container 3.png";
+import homepage from "../../images/nft1.jpg";
 function MainHome() {
   return (
     <div className="home-div-whole">
@@ -9,7 +9,7 @@ function MainHome() {
         <Col xxl={7} xl={9} lg={10} md={10} xs={24}>
           <div className="center-col-home">
             <div>
-              <h1 className="text-white center">
+              <h1 className="text-white center"> 
                 Monetize Your
                 <br /> Creativity, Own Your
                 <br /> Future

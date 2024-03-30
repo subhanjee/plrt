@@ -55,12 +55,15 @@
 }
 .pur-text{
     color: #9095a1;
+    font-size: .8rem;
 }
 .pur-text1{
     color: #6D31ED;
     display: flex;
     align-items: center;
     gap: .3rem;
+    font-size: .8rem;
+
 }
 .div-asset-sp{
     display: flex;

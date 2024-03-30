@@ -3,7 +3,7 @@ import "./index.css";
 import { Switch, Checkbox, Form, Input, InputNumber, Select } from "antd";
 import { Container } from "react-bootstrap";
 import { UploadButton } from "@bytescale/upload-widget-react";
-import cover from "../../images/Image 231.png"
+import cover from "../../images/Image 231.png";
 const options = {
   apiKey: "public_FW25bz4Fho9x1dyWAJ2ZWdC37Vsq",
   maxFileCount: 1,
@@ -17,9 +17,9 @@ function CreatePost() {
   const onChange = (checked) => {
     console.log(`switch to ${checked}`);
   };
-  const onReset = () => {
-    form.resetFields();
-  };
+  // const onReset = () => {
+  //   form.resetFields();
+  // };
   const handleChange = (value) => {
     setCheckedList(value);
   };
@@ -33,6 +33,7 @@ function CreatePost() {
         <Container>
           <div>
             <Form
+              form={form}
               onFinish={onFinish}
               variant="filled"
               style={{
@@ -53,13 +54,13 @@ function CreatePost() {
                   },
                 ]}
               >
-               <div className="cover-div">
-                <img src={cover} alt="abc" />
-               </div>
-               <div className="btn-change">
-                <button className="bt-change">Change</button>
-                <button className="bt-remove">Remove</button>
-               </div>
+                <div className="cover-div">
+                  <img src={cover} alt="abc" />
+                </div>
+                <div className="btn-change">
+                  <button className="bt-change">Change</button>
+                  <button className="bt-remove">Remove</button>
+                </div>
               </Form.Item>
               <h6 className="text-white">Product Name *</h6>
               <p className="text-white dus-text">

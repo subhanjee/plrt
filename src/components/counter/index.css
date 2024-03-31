@@ -9,3 +9,14 @@
 .time-text{
     color: white;
 }
+@media(max-width: 1024px){
+    .day-text{
+        color: #9095A1;
+        font-size: .9rem;
+    }
+    .time-text{
+        color: white;
+        font-size: .9rem;
+
+    }
+}

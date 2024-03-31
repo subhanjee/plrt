@@ -53,7 +53,7 @@ function HeroStat() {
                     <div>Report</div>
                   </div>
                 </div>
-                <div className="pur-div">
+                <div className="pur-div-hero">
                   <div className="pur-text">Owned by</div>
                   <div className="pur-text1">
                     <img src={logo} alt="abc" /> Brenda Gardner{" "}

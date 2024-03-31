@@ -1,0 +1,10 @@
+.canvasjs-chart-canvas{
+    background: transparent !important;
+}
+.canvasjs-chart-credit{
+    display: none !important;
+}
+/* .canvasjs-chart-tooltip{
+    padding: 1rem !important;
+    color: yellow !;
+} */

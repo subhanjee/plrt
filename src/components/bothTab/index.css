@@ -1,0 +1,11 @@
+.whole-both-div{
+    padding: 70px 0px;
+}
+.center-both-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}

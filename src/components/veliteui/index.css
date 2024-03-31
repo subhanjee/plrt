@@ -1,0 +1,37 @@
+.box-velit{
+    border: solid 1px #9095A1;
+    /* padding: .5rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    width: 12rem;
+}
+.div-box-vel{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+@media(max-width: 1024px){
+    .box-velit{
+        border: solid 1px #9095A1;
+        /* padding: .5rem; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        padding: .5rem;
+        width: 10rem;
+    }
+}
+ 
+ 

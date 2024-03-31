@@ -1,0 +1,22 @@
+.tabl-size{
+    width: 40rem !important;
+    margin-top: 1.5rem;
+ }
+@media(max-width: 1406px){
+    .tabl-size{
+        width: 35rem !important;
+        margin-top: 1.5rem;
+    }
+}
+@media(max-width: 1024px){
+    .tabl-size{
+        width: 35rem !important;
+        margin-top: 1.5rem;
+    }
+}
+@media(max-width: 500px){
+    .tabl-size{
+        width: 21rem !important;
+        margin-top: 1.5rem;
+    }
+}

@@ -1,0 +1,11 @@
+.div-count{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.day-text{
+    color: #9095A1;
+}
+.time-text{
+    color: white;
+}

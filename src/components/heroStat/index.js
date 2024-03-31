@@ -8,12 +8,14 @@ import tag from "../../images/Tag.png";
 import tick from "../../images/Image 74.png";
 import logo from "../../images/Image 240.png";
 import logo1 from "../../images/Image 241.png";
+import credit from "../../images/Credit card (1).png";
 import {
   HeartOutlined,
   ShareAltOutlined,
   ExclamationCircleOutlined,
 } from "@ant-design/icons";
 import { Container } from "react-bootstrap";
+import Countdown from "../counter";
 function HeroStat() {
   return (
     <div className="whole-div-asset">
@@ -60,16 +62,22 @@ function HeroStat() {
                   <div className="pur-text">Collection</div>
                   <div className="pur-text1"><img src={logo1} alt="abc" />Unidentified Monster</div>
                 </div>
+                <div className="box-count">
+                  <div className="upper-box">Sale ends June 1, 2022 at 10:00AM GMT+7</div>
+                  <div className="bottom-box">
+                  <Countdown/>
+                  </div>
+                </div>
                 <h6 className="text-white">Current price</h6>
                 <div className="dolr-div">
                   <img src={dai1} alt="abc" />
                   <div className="text-white d-text1">59.99</div>
                   <div className="d-text">$120.00</div>
                 </div>
-                <div>
-                <button className="tag-btn">
+                <div className="div-big-tag">
+                <button className="tag-btn1">
                     {" "}
-                    <img src={tag} alt="abc" />
+                    <img src={credit} alt="abc" />
                     Buy now
                   </button>
                   <button className="tag-btn">

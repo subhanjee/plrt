@@ -1,0 +1,19 @@
+.wholediv-bg{
+    background-color: transparent;
+}
+.active-div-whole{
+    padding: 70px 0px;
+}
+.div-fil-act{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+@media(max-width: 500px){
+    .div-fil-act{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

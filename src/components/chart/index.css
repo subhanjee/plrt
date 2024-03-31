@@ -1,10 +1,41 @@
 .canvasjs-chart-canvas{
     background: transparent !important;
+     display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: white !important;
 }
 .canvasjs-chart-credit{
     display: none !important;
-}
-/* .canvasjs-chart-tooltip{
-    padding: 1rem !important;
-    color: yellow !;
-} */
+ }
+ .div-price-chart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .chart-logo{
+    display: flex;
+    gap: .5rem;
+ }
+ .ince-div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+ }
+ .ince-text{
+    color: #9095A1;
+    margin-bottom: .8rem;
+    font-size: .8rem;
+ }
+ @media(max-width: 500px){
+    .ince-div{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+     }
+ }

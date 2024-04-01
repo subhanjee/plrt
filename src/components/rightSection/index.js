@@ -17,8 +17,9 @@ import frame from "../../images/Frame 180 (1).png";
 import frame1 from "../../images/Frame 180.png";
 import "./index.css";
 import { Card, Col, Input, Row } from "antd";
-import { SearchOutlined } from "@ant-design/icons";
+import { SearchOutlined,CloseCircleFilled } from "@ant-design/icons";
 import { Link } from "react-router-dom";
+import { Container } from "react-bootstrap";
 const data = [
   {
     id: 1,
@@ -108,8 +109,9 @@ const data = [
 function RightSection() {
   return (
     <div>
+         <Container>
       <div className="input-div">
-        <Input
+        <Input 
           size="large"
           placeholder="Search items"
           prefix={
@@ -132,13 +134,18 @@ function RightSection() {
           </div>
         </div>
       </div>
-      <h3 className="text-white ite">36 Items</h3>
-      <Row justify="center" className="gap-5">
+      <div className="divbuy-div">
+      <h3 className="text-white ite">116 results</h3>
+      <div className="buy-btn">Buy now <CloseCircleFilled /></div>
+      <div className="buy-btn">Dimond <CloseCircleFilled /></div>
+      <div className="buy-btn">Brushed <CloseCircleFilled /></div>
+      </div>
+       <Row justify="center" className="gap-5">
         {data.map((item, index) => (
           <Col key={index} xxl={7} xl={7} lg={8}>
             <div>
               <Link to="/detail" style={{textDecoration:"none"}}>
-              <Card hoverable cover={item.img} className="card-div">
+              <Card hoverable cover={item.img} className="card-div-ri">
                 <div className="card-text-div">
                   <h6 className="title-text">{item.title}</h6>
                   <div className="flex-div">
@@ -155,9 +162,11 @@ function RightSection() {
           </Col>
         ))}
       </Row>
+    
       <div className="view-div-center">
         <button className="view-btn">View more (27)</button>
       </div>
+      </Container>
     </div>
   );
 }

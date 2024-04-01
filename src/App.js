@@ -16,8 +16,8 @@ function App() {
       <Route path="/" element={<HomeMain />}></Route>
       <Route path="/explore" element={<LandingPage />}></Route>
       <Route path="/detail" element={<Detail />}></Route>
-      <Route path="/profile" element={<Profile />}></Route>
-      <Route path="/profileTwo" element={<ProfileTwo />}></Route>
+      <Route path="/profileTwo" element={<Profile />}></Route>
+      <Route path="/profile" element={<ProfileTwo />}></Route>
       <Route path="/assetsScreen" element={<AssetsScreen />}></Route>
       <Route path="/createItems" element={<CreateItems />}></Route>
       <Route path="/statScreen" element={<StatScreen />}></Route>

@@ -53,11 +53,6 @@ function Header() {
             </Link>
           </Nav.Link>
           <Nav.Link href="#action2" className="text-nav">
-            <Link to="/profileTwo" className="text-nav">
-            ProfileTwo
-            </Link>
-          </Nav.Link>
-          <Nav.Link href="#action2" className="text-nav">
           <Link to="/createItems" className="text-nav">
             Create
             </Link>

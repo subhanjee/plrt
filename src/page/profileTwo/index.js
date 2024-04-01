@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../../components/navbar";
- import Footer from "../../components/footer";
+import Footer from "../../components/footer";
 import { Container } from "react-bootstrap";
 import HeroProfile from "../../components/heroProfile";
 import ProfileTwoTab from "../../components/profileTwoTabs";
@@ -11,10 +11,10 @@ function ProfileTwo() {
       <Header />
       <HeroProfile />
       <Container>
-      <ProfileTwoTab/>
+        <ProfileTwoTab />
       </Container>
       <Recommended />
-      <Footer/>
+      <Footer />
     </div>
   );
 }

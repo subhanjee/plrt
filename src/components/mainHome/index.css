@@ -29,17 +29,20 @@
 }
 .create-btn-home {
   background-color: #f5f1fe;
-  color: #20E9FF;
+  color: #11111E;
   width: 6rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
+  font-weight: 500;
 }
 .explore-btn-home {
   background-color: #20E9FF  ;
-  color: #f5f1fe;
+  color: #11111E;
   width: 6rem;
   padding: 0.5rem;
   border-radius: 0.2rem;
+  font-weight: 500;
+
 }
  
 @media (max-width: 500px) {

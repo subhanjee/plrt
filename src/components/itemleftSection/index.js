@@ -1,9 +1,24 @@
 import React, { useState } from "react";
 import { FilterOutlined, DownOutlined, UpOutlined } from "@ant-design/icons";
-import { Slider, Checkbox, Input } from "antd";
-
+import { Slider, Checkbox, Input,Dropdown } from "antd";
 import "./index.css";
-
+const items = [
+  {
+    label: <a href="https://www.antgroup.com">1st menu item</a>,
+    key: '0',
+  },
+  {
+    label: <a href="https://www.aliyun.com">2nd menu item</a>,
+    key: '1',
+  },
+  {
+    type: 'divider',
+  },
+  {
+    label: '3rd menu item',
+    key: '3',
+  },
+];
 function ItemsLeftSection() {
   const [checkedList, setCheckedList] = useState([]);
   const onChange = (value) => {
@@ -11,7 +26,7 @@ function ItemsLeftSection() {
   };
   const onChangeComplete = (value) => {
     console.log("onChangeComplete: ", value);
-  };
+  }; 
   const handleChange = (value) => {
     setCheckedList(value);
   };
@@ -22,7 +37,7 @@ function ItemsLeftSection() {
         <h6 className="text-fil">Filters</h6>
       </div>
       <hr className="line-hr" />
-      <div className="div-cate">
+      <div className="div-cate"> 
         <h6 className="text-white">Status</h6>
         <DownOutlined style={{ color: "#78788D" }} />
       </div>

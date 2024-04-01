@@ -67,7 +67,7 @@
   .div-slide {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: flex-start; 
   }
   .ant-input-outlined{
       background-color:#21212F !important;

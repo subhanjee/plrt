@@ -9,7 +9,7 @@ function MainHome() {
         <Col xxl={7} xl={9} lg={10} md={10} xs={24}>
           <div className="center-col-home">
             <div>
-              <h1 className="text-white center"> 
+              <h1 className="text-white center">  
                 Monetize Your
                 <br /> Creativity, Own Your
                 <br /> Future

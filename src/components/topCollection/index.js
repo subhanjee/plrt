@@ -1,89 +1,110 @@
 import { Col, Dropdown, Row, Space } from "antd";
 import React from "react";
 import "./index.css";
-import sellerLogo from "../../images/userpic (10).png";
-import sellerLogo1 from "../../images/userpic (11).png";
-import sellerLogo2 from "../../images/userpic (12).png";
-import sellerLogo3 from "../../images/userpic (13).png";
-import sellerLogo4 from "../../images/userpic (14).png";
-import sellerLogo5 from "../../images/userpic (15).png";
-import sellerLogo6 from "../../images/userpic (16).png";
-import sellerLogo7 from "../../images/userpic (17).png";
-import sellerLogo8 from "../../images/userpic (18).png";
+import sellerLogo from "../../images/Image 28.png";
+import sellerLogo1 from "../../images/Image 33.png";
+import sellerLogo2 from "../../images/Image 37.png";
+import sellerLogo3 from "../../images/Image 41.png";
+import sellerLogo4 from "../../images/Image 45.png";
+import sellerLogo5 from "../../images/Image 50.png";
+import sellerLogo6 from "../../images/Image 54.png";
+import sellerLogo7 from "../../images/Image 59.png";
+import sellerLogo8 from "../../images/Image 64.png";
 import tick from "../../images/tick.png";
-import icon from "../../images/icon (1).png";
-import arrow from "../../images/arrow.png";
-import arrow1 from "../../images/catalog forward.png";
+import icon from "../../images//Group (6).png";
+// import arrow from "../../images/arrow.png";
+// import arrow1 from "../../images/catalog forward.png";
 import { Container } from "react-bootstrap";
 import { DownOutlined } from "@ant-design/icons";
+import uparrow from "../../images/Arrow up 1.png";
+import downarrow from "../../images/Arrow down 1.png";
 
 const data = [
   {
     id: 1,
-    title: "PLRGenius",
-    items: "19",
-    price: "1,460.00",
+    title: "Unknow Birds",
+    items: "0.99",
+    price: "15.99",
     img: <img src={sellerLogo} alt="abc" />,
     subimg: <img src={tick} alt="abc" />,
+    per: "16.85%",
+    up: <img src={uparrow} alt="abc" />,
   },
   {
     id: 2,
-    title: "PixelPoet",
-    items: "223",
-    price: "1,790.90",
+    title: "Unknow Pill",
+    items: "0.99",
+    price: "0.99",
     img: <img src={sellerLogo1} alt="abc" />,
     subimg: <img src={tick} alt="abc" />,
+    per: "36.25%",
+    up: <img src={uparrow} alt="abc" />,
   },
   {
     id: 3,
-    title: "PLRVision",
-    items: "225",
-    price: "1,290.99",
+    title: "Cube Earth",
+    items: "0.99",
+    price: "40.65",
     img: <img src={sellerLogo2} alt="abc" />,
+    per: "66.85%",
+    up: <img src={uparrow} alt="abc" />,
   },
   {
     id: 4,
-    title: "CodeCrafter",
-    items: "44",
-    price: "890.99",
+    title: "Matrix Cube",
+    items: "0.99",
+    price: "85.65",
     img: <img src={sellerLogo3} alt="abc" />,
+    per: "26.35%",
+    up: <img src={downarrow} alt="abc" />,
   },
   {
     id: 5,
-    title: "MysticPLR",
-    items: "1020",
-    price: "1,160.00",
+    title: "Xmas Tree",
+    items: "0.99",
+    price: "9.25",
     img: <img src={sellerLogo4} alt="abc" />,
     subimg: <img src={tick} alt="abc" />,
+    per: "16.85%",
+    up: <img src={uparrow} alt="abc" />,
   },
   {
     id: 6,
-    title: "CraftPLR",
-    items: "98",
-    price: "990.90",
+    title: "Oil Painting Apple",
+    items: "0.99",
+    price: "6.99",
     img: <img src={sellerLogo5} alt="abc" />,
+    per: "26.35%",
+    up: <img src={downarrow} alt="abc" />,
   },
   {
     id: 7,
-    title: "BeatBaker",
-    items: "902",
-    price: "769.99",
+    title: "Magic Brain",
+    items: "0.99",
+    price: "5.99",
     img: <img src={sellerLogo6} alt="abc" />,
+    per: "4.00%",
+    up: <img src={downarrow} alt="abc" />,
   },
   {
     id: 8,
-    title: "VibeSmith",
-    items: "10",
-    price: "710.00",
+    title: "Artistic Hand",
+    items: "0.99",
+    price: "5.99",
     img: <img src={sellerLogo7} alt="abc" />,
+    per: "12.90%",
+    up: <img src={downarrow} alt="abc" />,
   },
   {
     id: 9,
-    title: "MuseMingle",
-    items: "79",
-    price: "640.99",
+    title: "Cosmos Fix",
+    items: "0.99",
+    price: "8.99",
     img: <img src={sellerLogo8} alt="abc" />,
     subimg: <img src={tick} alt="abc" />,
+    per: "6.00%",
+    up: <img src={downarrow} alt="abc" />,
+
   },
 ];
 const items = [
@@ -125,13 +146,13 @@ function TopCollection() {
               </Dropdown>
             </div>
             <div className="more-div-sell">
-              <div className="div-view-go">Go to rankings</div>
-              <div className="div-arrow">
+              <div className="div-view-top">Go to rankings</div>
+              {/* <div className="div-arrow">
                 <img src={arrow} alt="abc" />
               </div>
               <div className="div-arrow">
                 <img src={arrow1} alt="abc" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -139,17 +160,27 @@ function TopCollection() {
           {data.map((item, index) => (
             <Col key={index} xxl={6}>
               <div className="center-col-top">
-                <div className="div-seller">
+                <div className="div-seller-col">
                   <div>{item.img}</div>
-                  <div>
-                    <div className="flex-tick">
-                      <div>{item.title}</div>
-                      <div>{item.subimg}</div>
+                  <div className="flex-dd">
+                    <div>
+                      <div className="flex-tick">
+                        <div>{item.title}</div>
+                      </div>
+                      <div className="flex-price-seller-col">
+                        <div style={{ color: "#78788D" }}>Floor:</div>
+                        <div className="flex-tick1">
+                          <img src={icon} alt="abc" />
+                          {item.items}
+                        </div>
+                      </div>
                     </div>
-                    <div className="flex-price-seller">
-                      <div style={{ color: "#78788D" }}>item:</div>
-                      <div className="text-white">{item.items}</div>
+                    <div>
                       <div className="flex-tick1">
+                        {item.up}
+                        {item.per}
+                      </div>
+                      <div className="flex-tick1 mt-1">
                         <img src={icon} alt="abc" />
                         {item.price}
                       </div>

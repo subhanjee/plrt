@@ -18,7 +18,7 @@
     margin-top: .5rem;
     margin-bottom: .5rem;
 }
-.div-seller{
+.div-seller-col{
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -27,6 +27,12 @@
     width: 20rem;
     padding: .8rem;
 
+}
+.flex-dd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15rem;
 }
 .flex-tick{
     display: flex;
@@ -41,24 +47,27 @@
     font-size: .8rem;
     align-items: center;
     gap: .5rem;
+ 
 }
-.flex-price-seller{
+.flex-price-seller-col{
     display: flex;
-    gap: 1rem;
-}
+    gap: .5rem;
+    margin-top: .5rem;
+ }
 .div-week{
     display: flex;
     gap: 1rem;
     font-size: 1.2rem;
 }
-.div-view-go{
-    background-color: #21212F;
+.div-view-top{
+    background-color: transparent;
     width: 8rem;
-    border-radius: 5rem;
-    padding: .3rem;
-    color: white;
+    border-radius: .1rem;
+    padding: .4rem;
+    color: #20E9FF;
     text-align: center;
     font-size: .8rem;
+    border: solid 1px  #20E9FF    ;
 }
 .div-arrow{
     background-color: #21212F;

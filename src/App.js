@@ -11,8 +11,7 @@ import StatScreen from "./page/statScreen";
 
 function App() {
   return (
-    // <div className="App">
-    <Routes>
+     <Routes>
       <Route path="/" element={<HomeMain />}></Route>
       <Route path="/explore" element={<LandingPage />}></Route>
       <Route path="/detail" element={<Detail />}></Route>
@@ -22,8 +21,7 @@ function App() {
       <Route path="/createItems" element={<CreateItems />}></Route>
       <Route path="/statScreen" element={<StatScreen />}></Route>
     </Routes>
-    // </div>
-  );
+   );
 }
 
 export default App;

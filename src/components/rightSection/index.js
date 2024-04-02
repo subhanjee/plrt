@@ -144,7 +144,7 @@ function RightSection() {
         {data.map((item, index) => (
           <Col key={index} xxl={7} xl={7} lg={8}>
             <div>
-              <Link to="/detail" style={{textDecoration:"none"}}>
+              <Link to="/statScreen" style={{textDecoration:"none"}}>
               <Card hoverable cover={item.img} className="card-div-ri">
                 <div className="card-text-div">
                   <h6 className="title-text">{item.title}</h6>

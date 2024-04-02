@@ -139,7 +139,7 @@ function CardSection() {
           {data.map((item, index) => (
             <Col key={index} xxl={7} xl={7} lg={7}>
               <div>
-                <Link to="/detail" style={{ textDecoration: "none" }}>
+                <Link to="/profileTwo" style={{ textDecoration: "none" }}>
                   <Card hoverable cover={item.img} className="card-div-card">
                     <div className="card-text-div">
                       <div className="title-text-card">{item.title}</div>

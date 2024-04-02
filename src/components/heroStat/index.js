@@ -16,6 +16,7 @@ import {
 } from "@ant-design/icons";
 import { Container } from "react-bootstrap";
 import Countdown from "../counter";
+import { Link } from "react-router-dom";
 function HeroStat() {
   return (
     <div className="whole-div-asset">
@@ -75,11 +76,13 @@ function HeroStat() {
                   <div className="d-text">$120.00</div>
                 </div>
                 <div className="div-big-tag">
+                <Link to="/detail" style={{ textDecoration: "none" }}>
                 <button className="tag-btn1">
                     {" "}
                     <img src={credit} alt="abc" />
                     Buy now
                   </button>
+                  </Link>
                   <button className="tag-btn">
                     {" "}
                     <img src={tag} alt="abc" />

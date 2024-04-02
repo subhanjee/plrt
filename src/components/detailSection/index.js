@@ -3,7 +3,8 @@ import React, { useState } from "react";
 import plr from "../../images/Rectangle 353.png";
 import icon from "../../images/icon.png";
 import "./index.css";
-import {  message, Steps, } from "antd";
+import { message, Steps } from "antd";
+import { Link } from "react-router-dom";
 const steps = [
   {
     title: "Summary",
@@ -19,7 +20,7 @@ const steps = [
   },
 ];
 function DetailSection() {
-   const [current, setCurrent] = useState(0);
+  const [current, setCurrent] = useState(0);
   const next = () => {
     setCurrent(current + 1);
   };
@@ -33,8 +34,8 @@ function DetailSection() {
 
   return (
     <div className="detail-div-whole">
-        <div className="step-div">
-      <Steps current={current} items={items} className="step-width"  />
+      <div className="step-div">
+        <Steps current={current} items={items} className="step-width" />
       </div>
       <Row justify="center">
         <Col xxl={4} xl={7} lg={8} md={10}>
@@ -104,13 +105,15 @@ function DetailSection() {
               </button>
             )}
             {current === steps.length - 1 && (
-              <button
-                onClick={() => message.success("Processing complete!")}
-                className="pro-btn"
-              >
-                {" "}
-                Done
-              </button>
+              <Link to="/assetsScreen" style={{ textDecoration: "none" }}>
+                <button
+                  onClick={() => message.success("Processing complete!")}
+                  className="pro-btn"
+                >
+                  {" "}
+                  Done
+                </button>
+              </Link>
             )}
             {/* {current > 0 && (
           <button
